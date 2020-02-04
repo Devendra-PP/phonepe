@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Devendra-PP/phonepe/precache-manifest.315633f786de989f0e9826e8d1c9389d.js"
+  "/Devendra-PP/phonepe/precache-manifest.10e3b5984c86fa99e8fe3c55ffaa54a5.js"
 );
 
 self.addEventListener('message', (event) => {

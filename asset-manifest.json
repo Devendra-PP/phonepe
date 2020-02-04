@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Devendra-PP/phonepe/static/css/main.89376bd0.chunk.css",
-    "main.js": "/Devendra-PP/phonepe/static/js/main.cb79a973.chunk.js",
-    "main.js.map": "/Devendra-PP/phonepe/static/js/main.cb79a973.chunk.js.map",
+    "main.css": "/Devendra-PP/phonepe/static/css/main.e83f7372.chunk.css",
+    "main.js": "/Devendra-PP/phonepe/static/js/main.e7c67e7c.chunk.js",
+    "main.js.map": "/Devendra-PP/phonepe/static/js/main.e7c67e7c.chunk.js.map",
     "runtime-main.js": "/Devendra-PP/phonepe/static/js/runtime-main.faf97d80.js",
     "runtime-main.js.map": "/Devendra-PP/phonepe/static/js/runtime-main.faf97d80.js.map",
-    "static/js/2.8538deae.chunk.js": "/Devendra-PP/phonepe/static/js/2.8538deae.chunk.js",
-    "static/js/2.8538deae.chunk.js.map": "/Devendra-PP/phonepe/static/js/2.8538deae.chunk.js.map",
+    "static/js/2.4b57907f.chunk.js": "/Devendra-PP/phonepe/static/js/2.4b57907f.chunk.js",
+    "static/js/2.4b57907f.chunk.js.map": "/Devendra-PP/phonepe/static/js/2.4b57907f.chunk.js.map",
     "index.html": "/Devendra-PP/phonepe/index.html",
-    "precache-manifest.315633f786de989f0e9826e8d1c9389d.js": "/Devendra-PP/phonepe/precache-manifest.315633f786de989f0e9826e8d1c9389d.js",
+    "precache-manifest.10e3b5984c86fa99e8fe3c55ffaa54a5.js": "/Devendra-PP/phonepe/precache-manifest.10e3b5984c86fa99e8fe3c55ffaa54a5.js",
     "service-worker.js": "/Devendra-PP/phonepe/service-worker.js",
-    "static/css/main.89376bd0.chunk.css.map": "/Devendra-PP/phonepe/static/css/main.89376bd0.chunk.css.map",
-    "static/js/2.8538deae.chunk.js.LICENSE.txt": "/Devendra-PP/phonepe/static/js/2.8538deae.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Devendra-PP/phonepe/static/media/logo.26ef1cbc.svg"
+    "static/css/main.e83f7372.chunk.css.map": "/Devendra-PP/phonepe/static/css/main.e83f7372.chunk.css.map",
+    "static/js/2.4b57907f.chunk.js.LICENSE.txt": "/Devendra-PP/phonepe/static/js/2.4b57907f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.faf97d80.js",
-    "static/js/2.8538deae.chunk.js",
-    "static/css/main.89376bd0.chunk.css",
-    "static/js/main.cb79a973.chunk.js"
+    "static/js/2.4b57907f.chunk.js",
+    "static/css/main.e83f7372.chunk.css",
+    "static/js/main.e7c67e7c.chunk.js"
   ]
 }
