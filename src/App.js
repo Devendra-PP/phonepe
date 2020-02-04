@@ -1,21 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+'use strict';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+let express = require('express');
+let app = express();
+
+// All of our paths have the Link header.
+app.use(function(req, res, next) {
+  res.status(200).links({
+    'payment-method-manifest':
+        'https://bobpay.xyz/pay/payment-manifest.json',
+    });
+    return next();
+});
+// We are mostly a static website.
+app.use(express.static('public'));
+
+/**
+ * Starts the server.
+ */
+if (module === require.main) {
+  let server = app.listen(process.env.PORT || 8080, function() {
+    console.log('App listening on port %s', server.address().port);
+  });
 }
 
-export default App;
+module.exports = app;
